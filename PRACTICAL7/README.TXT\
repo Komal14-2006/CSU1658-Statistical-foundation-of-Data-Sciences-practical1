@@ -1,1 +1,40 @@
+Tech Stack
 
+| **Category**                 | **Tool / Library**                  | **Purpose / Usage**                                                   |
+| ---------------------------- | ----------------------------------- | --------------------------------------------------------------------- |
+| **Programming Language**     | **Python 3.x**                      | Main language used for data analysis and statistical testing          |
+| **Data Handling**            | **pandas**                          | Loading, cleaning, and manipulating the Teachers’ Rating dataset      |
+| **Statistical Analysis**     | **statsmodels**                     | Performing Regression (T-test), ANOVA, and model summaries            |
+| **Mathematical Operations**  | **numpy**                           | Numerical computations and array-based operations                     |
+| **Visualization (optional)** | **matplotlib / seaborn**            | Data visualization and exploratory plots (if required)                |
+| **Statistical Tests**        | **scipy.stats**                     | For calculating correlation coefficients and significance values      |
+| **Environment**              | **Jupyter Notebook / Google Colab** | Interactive notebook environment for running code and viewing results |
+
+
+Overview :
+
+This practical focuses on applying statistical techniques — Regression with T-test, ANOVA, and Correlation — to analyze the Teachers’ Rating dataset.
+The goal is to explore how factors like gender, age, and beauty scores influence teaching evaluation ratings.
+
+Objectives :
+
+Regression with T-test:
+To determine whether gender affects the teaching evaluation scores of instructors.
+Regression with ANOVA:
+To examine whether the beauty score of instructors differs significantly across age groups.
+Correlation Analysis:
+To measure the relationship between teaching evaluation scores and beauty scores.
+
+Methodology:
+
+Used Python with libraries:
+pandas, statsmodels, scipy, and seaborn.
+
+Performed statistical testing on a teacher rating dataset (simulated version of the IBM “teacher evaluation” dataset).
+
+Key steps:
+Data cleaning and encoding (e.g., gender to numerical form)
+Running OLS regression models
+Conducting ANOVA tests
+Calculating Pearson correlation coefficients
+Interpreted results using p-values and correlation strength.
